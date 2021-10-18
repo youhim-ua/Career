@@ -1,0 +1,43 @@
+.contact-us {
+  margin-left: auto;
+
+  @include for-size(desktop) {
+    margin-left: 0;
+    order: 3;
+  }
+
+  &__link,
+  &__image {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
+  @include for-size(desktop) {
+    &__link {
+      width: 156px;
+      height: 48px;
+      padding: 14px 0;
+      font-weight: 700;
+      font-size: $font-size-secondary;
+      line-height: 1;
+      text-align: center;
+      color: $secondary-text-color;
+      text-decoration: none;
+      border: 2px solid $button-background-color;
+      border-radius: 383px;
+      cursor: pointer;
+    }
+  }
+
+  &__image {
+    fill: $secondary-text-color;
+    transition: fill 300ms linear;
+  }
+
+  &__link:hover > &__image,
+  &__link:focus > &__image {
+    fill: #18e8a4;
+    transition: fill 300ms linear;
+  }
+}

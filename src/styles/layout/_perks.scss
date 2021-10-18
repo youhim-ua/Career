@@ -1,0 +1,25 @@
+.perks {
+  padding: 80px 0 48px;
+
+  @include for-size(desktop-1440) {
+    padding: 100px 0;
+  }
+
+  &__title {
+    font-weight: $font-weight-primary;
+    font-size: $font-size-primary;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: $letter-spacing-primary;
+    color: $title-text-color;
+
+    @include for-size(tablet) {
+      font-size: 48px;
+    }
+
+    @include for-size(desktop-1440) {
+      font-size: 62px;
+      margin-bottom: 60px;
+    }
+  }
+}

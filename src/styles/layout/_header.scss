@@ -1,0 +1,21 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 48px 20px;
+  background-color: inherit;
+  z-index: 500;
+
+  @include for-size(desktop) {
+    justify-content: space-between;
+    padding: 28px 90px;
+  }
+
+  @include for-size(desktop-full-hd) {
+    justify-content: space-between;
+    padding: 28px 330px;
+  }
+}

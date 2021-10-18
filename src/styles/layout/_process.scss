@@ -1,0 +1,84 @@
+.process {
+  position: relative;
+  padding: 64px 0 48px;
+
+  @include for-size(tablet) {
+    padding-top: 80px;
+  }
+
+  @include for-size(desktop-1440) {
+    padding: 100px 0 118px;
+  }
+
+  @include for-size(desktop-1440) {
+    & > div {
+      display: flex;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 0;
+    left: -30%;
+    width: 300%;
+    height: 16px;
+    box-shadow: 0px 32px 16px rgba(0, 0, 0, 0.09),
+      0px 16px 8px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09);
+  }
+
+  &__title + div {
+    display: flex;
+    gap: 52px;
+
+    @include for-size(tablet) {
+      margin-top: 32px;
+    }
+
+    @include for-size(desktop-1440) {
+      margin-top: 0;
+      display: block;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: $font-weight-primary;
+    font-size: $font-size-primary;
+    line-height: $line-height-primary;
+    letter-spacing: $letter-spacing-primary;
+    color: $title-text-color;
+
+    @include for-size(desktop-1440) {
+      font-size: 62px;
+      min-width: 363px;
+      margin-right: 285px;
+    }
+  }
+
+  &__text {
+    flex-basis: calc(100% / 2 - 26px);
+    margin: 28px 0 0;
+    font-style: normal;
+    font-weight: $font-weight-secondary;
+    font-size: $font-size-secondary;
+    line-height: $line-height-secondary;
+    color: #485563;
+
+    @include for-size(tablet) {
+      margin: 0;
+    }
+
+    @include for-size(desktop-1440) {
+      font-size: 24px;
+    }
+  }
+
+  @include for-size(desktop-1440) {
+    &__text:first-child {
+      margin-bottom: 24px;
+    }
+  }
+}

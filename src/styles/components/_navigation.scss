@@ -1,0 +1,75 @@
+.menu {
+  margin-left: 13px;
+
+  @include for-size(desktop) {
+    margin-left: 0;
+    order: 2;
+
+    &__list {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    &__item:nth-last-child(-n + 3) {
+      margin-left: 36px;
+    }
+  }
+
+  &__link,
+  &__image {
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    @include for-size(desktop) {
+      position: relative;
+      width: auto;
+      font-weight: 400;
+      font-size: $font-size-secondary;
+      line-height: 1.5;
+      color: #ffffff;
+      text-decoration: none;
+      transition: all 300ms linear;
+    }
+  }
+
+  @include for-size(desktop) {
+    &__link:hover {
+      color: $accent-color;
+      transform: translateY(-6px);
+      transition: all 300ms linear;
+    }
+
+    &__link::after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: $accent-color;
+      opacity: 0;
+      transition: all 300ms linear;
+    }
+
+    &__item:hover &__link::after {
+      opacity: 1;
+      transition: all 300ms linear;
+      bottom: -3px;
+    }
+  }
+
+  &__image {
+    fill: $secondary-text-color;
+    transition: fill 300ms linear;
+  }
+
+  &__link:hover > &__image,
+  &__link:focus > &__image {
+    fill: #18e8a4;
+    transition: fill 300ms linear;
+  }
+}

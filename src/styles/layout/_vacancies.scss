@@ -1,0 +1,125 @@
+.vacancies {
+  padding: 80px 0 29px;
+
+  @include for-size(tablet) {
+    padding-bottom: 48px;
+  }
+
+  @include for-size(desktop-1440) {
+    padding: 100px 70px;
+  }
+
+  &__title {
+    margin-bottom: 48px;
+    font-weight: $font-weight-primary;
+    font-size: $font-size-primary;
+    line-height: 1.53;
+    text-align: center;
+    letter-spacing: $letter-spacing-primary;
+    color: $secondary-text-color;
+
+    @include for-size(desktop-1440) {
+      font-size: 62px;
+      margin-bottom: 80px;
+    }
+  }
+
+  @include for-size(desktop-1440) {
+    &__form {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+  }
+
+  &__form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 32px auto 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    @include for-size(tablet) {
+      margin: 0;
+    }
+  }
+
+  &__form > button:hover .search-image,
+  &__form > button:focus .search-image {
+    fill: #cfecfa;
+    transition: fill 300ms ease-in;
+  }
+
+  &__form > label {
+    display: block;
+    margin-bottom: 18px;
+
+    @include for-size(desktop-1440) {
+      min-width: 438px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__form > div > label:first-child {
+    display: block;
+    margin-bottom: 18px;
+
+    @include for-size(tablet) {
+      margin-bottom: 0;
+    }
+  }
+
+  @include for-size(tablet) {
+    &__form > div {
+      display: flex;
+      align-items: center;
+      gap: 1.5em;
+    }
+  }
+
+  @include for-size(tablet) {
+    &__form > div label {
+      width: 100%;
+    }
+  }
+
+  @include for-size(desktop-1440) {
+    &__form > div label {
+      min-width: 280px;
+    }
+  }
+
+  &__field {
+    width: 100%;
+    height: 36px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  &__field > option {
+    color: $title-text-color;
+  }
+
+  &__field::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.search-image {
+  display: block;
+  width: 50px;
+  height: 50px;
+  fill: #18e8a4;
+  transition: fill 300ms ease-in;
+}

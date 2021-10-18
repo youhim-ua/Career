@@ -1,0 +1,96 @@
+body {
+  font-family: $font-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+main {
+  padding-top: 135px;
+  padding-bottom: 63px;
+
+  @include for-size(desktop) {
+    padding-top: 162px;
+    padding-bottom: 194px;
+  }
+}
+
+@include for-size(mobile-only) {
+  .container {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@include for-size(mobile) {
+  .container {
+    // width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+    // margin-left: auto;
+    // margin-right: auto;
+  }
+}
+
+@include for-size(desktop) {
+  .container {
+    // width: 1440px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+@include for-size(desktop-full-hd) {
+  .container {
+    // width: 1920px;
+    padding-left: 330px;
+    padding-right: 330px;
+  }
+}
+
+.container--dark {
+  background-color: $background-hero-color;
+}
+
+.container--grey-white {
+  background-color: #d5d4d9;
+}
+
+.container--grey-dark {
+  background-color: #aea9a8;
+}
+
+.container--less-dark {
+  background-color: #001427;
+}
+
+.container--lite-purple {
+  background-color: #fcf7f8;
+
+  @include for-size(desktop-1440) {
+    background-color: #fff;
+  }
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+}

@@ -1,0 +1,94 @@
+.hero {
+  @media screen and (min-width: 1440px) {
+    & > div:first-child {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: $font-weight-primary;
+    font-size: 40px;
+    line-height: $line-height-primary;
+    letter-spacing: $letter-spacing-primary;
+    color: $secondary-text-color;
+
+    @include for-size(tablet) {
+      font-size: 56px;
+    }
+
+    @include for-size(desktop) {
+      min-width: 430px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      max-width: 430px;
+    }
+  }
+
+  &__title::after {
+    content: '!';
+    color: $accent-color;
+  }
+
+  &__text {
+    margin: 16px 0 0;
+    font-style: normal;
+    font-weight: $font-weight-secondary;
+    font-size: $font-size-secondary;
+    line-height: 155%;
+    color: $secondary-text-color;
+
+    @include for-size(tablet) {
+      max-width: 534px;
+      margin-top: 24px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      margin: 0;
+      font-size: 24px;
+    }
+  }
+
+  &__link {
+    display: block;
+    margin-top: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 12px 16px;
+    width: 172px;
+    height: 40px;
+
+    text-decoration: none;
+    background: $button-background-color;
+    border-radius: 10px;
+    text-align: center;
+    font-family: $font-primary;
+    font-style: $font-weight-secondary;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 1.2;
+    color: $background-hero-color;
+    cursor: pointer;
+    transition: box-shadow 300ms linear;
+
+    @include for-size(tablet) {
+      margin-top: 8px;
+      margin-right: 0;
+      margin-left: 54px;
+    }
+
+    @include for-size(desktop) {
+      display: none;
+    }
+  }
+
+  &__link:hover,
+  &__link:focus {
+    box-shadow: 0px 6px 21px -2px rgba(22, 202, 99, 0.83);
+    transition: box-shadow 300ms linear;
+  }
+}

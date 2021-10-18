@@ -1,0 +1,93 @@
+.vacancies-list {
+  padding: 32px 0 48px;
+
+  @include for-size(tablet) {
+    padding: 48px 0 80px;
+  }
+
+  @include for-size(desktop-1440) {
+    padding: 64px 0 76px;
+  }
+
+  &__title {
+    margin: 32px 0 24px;
+    font-weight: $font-weight-primary;
+    font-size: $font-size-primary;
+    line-height: $line-height-primary;
+    letter-spacing: $letter-spacing-primary;
+    color: #333333;
+
+    @include for-size(tablet) {
+      margin-top: 48px;
+    }
+
+    @include for-size(desktop-1440) {
+      margin-top: 64px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__title:first-child {
+    margin-top: 0;
+  }
+
+  &__sublist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @include for-size(tablet) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    @include for-size(desktop-1440) {
+      gap: 24px;
+    }
+  }
+
+  &__sublist-item {
+    position: relative;
+    margin-bottom: 10px;
+    background: $secondary-text-color;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.09),
+      0px 6px 8px rgba(0, 0, 0, 0.09), 0px 4px 4px rgba(0, 0, 0, 0.09),
+      0px 2px 2px rgba(0, 0, 0, 0.09), 0px 1px 1px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+
+    @include for-size(tablet) {
+      margin-bottom: 0;
+      flex-basis: calc(100% / 2 - 10px);
+    }
+
+    @include for-size(desktop-1440) {
+      flex-basis: calc(100% / 3 - 16px);
+    }
+  }
+
+  &__sublist-item:last-child {
+    margin-bottom: 0;
+  }
+
+  &__sublist-item > a {
+    display: block;
+    padding: 32px 30px;
+    cursor: pointer;
+  }
+
+  &__sublist-item h4 {
+    font-weight: $font-weight-primary;
+    font-size: 24px;
+    line-height: $line-height-primary;
+    letter-spacing: $letter-spacing-primary;
+    color: $primary-text-color;
+  }
+
+  &__sublist-item p {
+    font-weight: $font-weight-secondary;
+    font-size: $font-size-secondary;
+    line-height: $line-height-primary;
+    color: $primary-text-color;
+  }
+}

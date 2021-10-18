@@ -1,0 +1,18 @@
+.arrows-image {
+  position: absolute;
+  left: -100px;
+  bottom: -90px;
+  width: 1079px;
+  height: 167px;
+  z-index: 100;
+
+  @include for-size(tablet) {
+    width: 1259px;
+    height: 175px;
+  }
+
+  @include for-size(desktop-1440) {
+    width: 1417px;
+    left: -80px;
+  }
+}

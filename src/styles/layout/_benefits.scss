@@ -1,0 +1,20 @@
+.benefits {
+  padding: 80px 0 48px;
+
+  @include for-size(desktop-1440) {
+    padding: 100px 0 210px;
+  }
+
+  &__title {
+    font-weight: $font-weight-primary;
+    font-size: $font-size-primary;
+    line-height: $line-height-primary;
+    letter-spacing: $letter-spacing-primary;
+    color: $secondary-text-color;
+
+    @include for-size(tablet) {
+      padding-left: 28px;
+      max-width: 477px;
+    }
+  }
+}
