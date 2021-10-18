@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/youhim-ua/Career/static/css/main.3c4ba5a1.chunk.css",
+    "main.js": "/youhim-ua/Career/static/js/main.323ca1e7.chunk.js",
+    "main.js.map": "/youhim-ua/Career/static/js/main.323ca1e7.chunk.js.map",
+    "runtime-main.js": "/youhim-ua/Career/static/js/runtime-main.5943386f.js",
+    "runtime-main.js.map": "/youhim-ua/Career/static/js/runtime-main.5943386f.js.map",
+    "static/css/2.ae7c1a2e.chunk.css": "/youhim-ua/Career/static/css/2.ae7c1a2e.chunk.css",
+    "static/js/2.db3a4869.chunk.js": "/youhim-ua/Career/static/js/2.db3a4869.chunk.js",
+    "static/js/2.db3a4869.chunk.js.map": "/youhim-ua/Career/static/js/2.db3a4869.chunk.js.map",
+    "index.html": "/youhim-ua/Career/index.html",
+    "static/css/2.ae7c1a2e.chunk.css.map": "/youhim-ua/Career/static/css/2.ae7c1a2e.chunk.css.map",
+    "static/css/main.3c4ba5a1.chunk.css.map": "/youhim-ua/Career/static/css/main.3c4ba5a1.chunk.css.map",
+    "static/js/2.db3a4869.chunk.js.LICENSE.txt": "/youhim-ua/Career/static/js/2.db3a4869.chunk.js.LICENSE.txt",
+    "static/media/sprite.a2056ee7.svg": "/youhim-ua/Career/static/media/sprite.a2056ee7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5943386f.js",
+    "static/css/2.ae7c1a2e.chunk.css",
+    "static/js/2.db3a4869.chunk.js",
+    "static/css/main.3c4ba5a1.chunk.css",
+    "static/js/main.323ca1e7.chunk.js"
+  ]
+}
