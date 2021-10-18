@@ -3,19 +3,31 @@
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
-  align-items: center;
-  padding: 48px 20px;
   background-color: inherit;
   z-index: 500;
 
-  @include for-size(desktop) {
+  & > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
     justify-content: space-between;
-    padding: 28px 90px;
+    padding: 48px 20px;
   }
 
-  @include for-size(desktop-full-hd) {
-    justify-content: space-between;
-    padding: 28px 330px;
+  @include for-size(desktop) {
+    & > div {
+      padding: 28px 90px;
+    }
+  }
+
+  @include for-size(desktop-1440) {
+    & > div {
+      display: flex;
+      width: 1440px;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 }

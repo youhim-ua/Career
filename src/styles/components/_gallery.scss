@@ -9,7 +9,6 @@
 
 .image-box {
   position: relative;
-  left: -20px;
   width: 100vw;
   margin-top: 42px;
   overflow: hidden;
@@ -18,15 +17,7 @@
     margin-top: 19px;
   }
 
-  @include for-size(desktop) {
-    left: -90px;
-  }
-
-  @include for-size(desktop-full-hd) {
-    left: -330px;
-  }
-
-  @media screen and (min-width: 1440px) {
+  @include for-size(desktop-1440) {
     margin-top: 100px;
   }
 
@@ -120,7 +111,7 @@
     }
   }
 
-  &__item:nth-child(-n + 11) {
+  &__item:nth-child(-n + 13) {
     margin-right: 6px;
 
     @include for-size(tablet) {

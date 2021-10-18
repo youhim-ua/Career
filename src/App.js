@@ -1,5 +1,6 @@
 import useWindowWidth from "./hooks/useWindowWidth";
 
+import Background from "./components/Background";
 import Container from "./components/Container";
 import AnimatedContainer from "./components/AnimatedContainer";
 import Header from "./components/Header";
@@ -29,7 +30,7 @@ const App = () => {
   return (
     <>
       <div className="hidden">
-        <Container
+        <Background
           bgColor={"container--dark"}
         >
           <Header>
@@ -42,56 +43,73 @@ const App = () => {
               <Gallery/>
             </Hero>
           </Main>
-        </Container>
-        <Container>
-          <AboutCompany />
-        </Container>
-        <Container 
+        </Background>
+        <Background>
+          <Container>
+            <AboutCompany />
+          </Container>
+        </Background>
+        <Background 
           bgColor={"container--grey-white"}
         >
-          <Process>
-            <ProcessList/>
-          </Process>
-        </Container>
-        <Container 
+          <Container>
+            <Process>
+              <ProcessList/>
+            </Process>
+          </Container>
+        </Background>
+        <Background 
           bgColor={"container--grey-dark"}
+          shadow={"grey-shadow"}
         >
-          <Benefits>
-            <BenefitsList/>
-          </Benefits>
-        </Container>
-        <Container 
+          <Container>
+            <Benefits>
+              <BenefitsList/>
+            </Benefits>
+          </Container>
+        </Background>
+        <Background 
           bgColor={"container--less-dark"}
         >
-          <Vacancies/>
-        </Container>
+          <Container>
+            <Vacancies/>
+          </Container>
+        </Background>
         <AnimatedContainer>
-          <VacanciesList />
-          {windowWidth >= 1440 && 
-            <SendResume>
-              <SendResumeForm/>
-            </SendResume> 
-          }
+          <Container>
+            <VacanciesList />
+            {windowWidth >= 1440 && 
+              <SendResume>
+                <SendResumeForm/>
+              </SendResume> 
+            }
+          </Container>
         </AnimatedContainer>
-        <Container
+        <Background
           bgColor={"container--lite-purple"}
         >
-          <Perks>
-            <PerksList/>
-          </Perks>
-        </Container>
+          <Container>
+            <Perks>
+              <PerksList/>
+            </Perks>
+          </Container>
+        </Background>
         {windowWidth < 1440 && 
           <AnimatedContainer>
-            <SendResume>
-              <SendResumeForm/>
-            </SendResume>
+            <Container>
+              <SendResume>
+                <SendResumeForm/>
+              </SendResume>
+            </Container>
           </AnimatedContainer>
         }
-        <Container
+        <Background
           bgColor={"container--dark"}
         >
-          <Footer/>
-        </Container>
+          <Container>
+            <Footer/>
+          </Container>
+        </Background>
       </div>
     </>
   );

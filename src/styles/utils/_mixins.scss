@@ -3,7 +3,6 @@
   $tablet: 768px;
   $desktop: 1024px;
   $desktop-1440: 1440px;
-  $desktop-full-hd: 1920px;
 
   @if $range == mobile-only {
     @media (max-width: #{$mobile - 1}) {
@@ -23,10 +22,6 @@
     }
   } @else if $range == desktop-1440 {
     @media (min-width: $desktop-1440) {
-      @content;
-    }
-  } @else if $range == desktop-full-hd {
-    @media (min-width: $desktop-full-hd) {
       @content;
     }
   }

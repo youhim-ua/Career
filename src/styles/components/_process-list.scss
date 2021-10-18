@@ -1,17 +1,18 @@
 .swiper {
   overflow: visible !important;
-
-  @include for-size(desktop-1440) {
-    width: 1240px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .process-list {
   margin: 55px 0 108px;
   padding: 0;
   list-style: none;
+
+  @media screen and (min-width: 1261px) and (max-width: 1439px) {
+    display: block;
+    width: 1092px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
   &__item {
     position: relative;
@@ -39,7 +40,7 @@
 
   @include for-size(desktop-1440) {
     &__item:first-child {
-      margin-right: 10px;
+      margin-right: 20px;
     }
   }
 

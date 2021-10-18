@@ -1,16 +1,9 @@
-const Container = ({ children, bgColor, overflow }) => {
-  const combineStyles = (bgColor, overflow) => `container ${bgColor} ${overflow}`
-
+const Container = ({ children }) => {
   return (
-    <div className={ combineStyles(bgColor, overflow) }>
+    <div className="container">
       { children }
     </div>
   );
 }
-
-Container.defaultProps = {
-  overflow: "",
-  bgColor: ""
-};
 
 export default Container;

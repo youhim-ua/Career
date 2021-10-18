@@ -1,0 +1,29 @@
+@include for-size(mobile-only) {
+  .container {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@include for-size(mobile) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@include for-size(desktop) {
+  .container {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+@include for-size(desktop-1440) {
+  .container {
+    width: 1440px;
+  }
+}

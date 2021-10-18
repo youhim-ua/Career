@@ -23,6 +23,10 @@ const ProcessList = () => {
       slidesPerView: "auto",
       spaceBetween: 10,
       breakpoints: {
+        1261: {
+          spaceBetween: 10,
+          slidesPerView: 3
+        },
         1440: {
           spaceBetween: 0,
           slidesPerView: 2

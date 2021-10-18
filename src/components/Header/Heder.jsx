@@ -1,7 +1,9 @@
 const Header = ({ children }) => {
   return (
     <header className="header">
-      { children }
+      <div>
+        { children }
+      </div>
     </header>
   );
 };
