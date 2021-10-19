@@ -9,7 +9,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/1.jpg"
-              srcset="./assets/images/hero/1x/1.jpg 1x, ./assets/images/hero/2x/1@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/1.jpg 1x, ./assets/images/hero/2x/1@2x.jpg 2x"
               alt="four people discus project"
             />
           </a>
@@ -20,7 +20,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/2.jpg"
-              srcset="./assets/images/hero/1x/2.jpg 1x, ./assets/images/hero/2x/2@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/2.jpg 1x, ./assets/images/hero/2x/2@2x-1.jpg 2x"
               alt="woman seat forward computer"
             />
           </a>
@@ -30,7 +30,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/3.jpg"
-              srcset="./assets/images/hero/1x/3.jpg 1x, ./assets/images/hero/2x/3@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/3.jpg 1x, ./assets/images/hero/2x/3@2x.jpg 2x"
               alt="four people in the office"
             />
           </a>
@@ -40,7 +40,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/16.jpg"
-              srcset="./assets/images/hero/1x/16.jpg 1x, ./assets/images/hero/2x/16@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/16.jpg 1x, ./assets/images/hero/2x/16@2x.jpg 2x"
               alt="man locking in the tablet" />
           </a>
         </li>
@@ -49,7 +49,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/5.jpg"
-              srcset="./assets/images/hero/1x/5.jpg 1x, ./assets/images/hero/2x/5@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/5.jpg 1x, ./assets/images/hero/2x/5@2x.jpg 2x"
               alt="woman in sweater" />
           </a>
         </li>
@@ -58,7 +58,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/6.jpg"
-              srcset="./assets/images/hero/1x/6.jpg 1x, ./assets/images/hero/2x/6@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/6.jpg 1x, ./assets/images/hero/2x/6@2x-1.jpg 2x"
               alt="people on the meeting" />
           </a>
         </li>
@@ -67,7 +67,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/1.jpg"
-              srcset="./assets/images/hero/1x/1.jpg 1x, ./assets/images/hero/2x/1@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/1.jpg 1x, ./assets/images/hero/2x/1@2x.jpg 2x"
               alt="four people discus project"
             />
           </a>
@@ -77,7 +77,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/2.jpg"
-              srcset="./assets/images/hero/1x/2.jpg 1x, ./assets/images/hero/2x/2@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/2.jpg 1x, ./assets/images/hero/2x/2@2x-1.jpg 2x"
               alt="woman seat forward computer"
             />
           </a>
@@ -87,7 +87,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/3.jpg"
-              srcset="./assets/images/hero/1x/3.jpg 1x, ./assets/images/hero/2x/3@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/3.jpg 1x, ./assets/images/hero/2x/3@2x.jpg 2x"
               alt="four people in the office"
             />
           </a>
@@ -97,7 +97,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/16.jpg"
-              srcset="./assets/images/hero/1x/16.jpg 1x, ./assets/images/hero/2x/16@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/16.jpg 1x, ./assets/images/hero/2x/16@2x.jpg 2x"
               alt="man locking in the tablet"
             />
           </a>
@@ -107,7 +107,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/5.jpg"
-              srcset="./assets/images/hero/1x/5.jpg 1x, ./assets/images/hero/2x/5@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/5.jpg 1x, ./assets/images/hero/2x/5@2x.jpg 2x"
               alt="woman in sweater"
             />
           </a>
@@ -117,7 +117,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/6.jpg"
-              srcset="./assets/images/hero/1x/6.jpg 1x, ./assets/images/hero/2x/6@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/6.jpg 1x, ./assets/images/hero/2x/6@2x-1.jpg 2x"
               alt="people on the meeting"
             />
           </a>
@@ -127,7 +127,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/5.jpg"
-              srcset="./assets/images/hero/1x/5.jpg 1x, ./assets/images/hero/2x/5@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/5.jpg 1x, ./assets/images/hero/2x/5@2x.jpg 2x"
               alt="woman in sweater"
             />
           </a>
@@ -137,7 +137,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/6.jpg"
-              srcset="./assets/images/hero/1x/6.jpg 1x, ./assets/images/hero/2x/6@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/6.jpg 1x, ./assets/images/hero/2x/6@2x-1.jpg 2x"
               alt="people on the meeting"
             />
           </a>
@@ -149,7 +149,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/7.jpg"
-              srcset="./assets/images/hero/1x/7.jpg 1x, ./assets/images/hero/2x/7@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/7.jpg 1x, ./assets/images/hero/2x/7@2x.jpg 2x"
               alt="three people with laptops"
             />
           </a>
@@ -159,7 +159,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/8.jpg"
-              srcset="./assets/images/hero/1x/8.jpg 1x, ./assets/images/hero/2x/8@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/8.jpg 1x, ./assets/images/hero/2x/8@2x.jpg 2x"
               alt="man works on laptop"
             />
           </a>
@@ -169,7 +169,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/9.jpg"
-              srcset="./assets/images/hero/1x/9.jpg 1x, ./assets/images/hero/2x/9@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/9.jpg 1x, ./assets/images/hero/2x/9@2x-1.jpg 2x"
               alt="two women are locking on laptop"
             />
           </a>
@@ -179,7 +179,7 @@ const Gallery = () => {
             <img  
               className="image-box__image"
               src="./assets/images/hero/1x/10.jpg"
-              srcset="./assets/images/hero/1x/10.jpg 1x, ./assets/images/hero/2x/10@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/10.jpg 1x, ./assets/images/hero/2x/10@2x.jpg 2x"
               alt="people on the meeting"
             />
           </a>
@@ -189,7 +189,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/11.jpg"
-              srcset="./assets/images/hero/1x/11.jpg 1x, ./assets/images/hero/2x/11@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/11.jpg 1x, ./assets/images/hero/2x/11@2x-1.jpg 2x"
               alt="three men discuss task"
             />
           </a>
@@ -199,7 +199,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/12.jpg"
-              srcset="./assets/images/hero/1x/12.jpg 1x, ./assets/images/hero/2x/12@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/12.jpg 1x, ./assets/images/hero/2x/12@2x.jpg 2x"
               alt="man writes in the notebook"
             />
           </a>
@@ -209,7 +209,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/7.jpg"
-              srcset="./assets/images/hero/1x/7.jpg 1x, ./assets/images/hero/2x/7@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/7.jpg 1x, ./assets/images/hero/2x/7@2x.jpg 2x"
               alt="three people with laptops"
             />
           </a>
@@ -219,7 +219,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/8.jpg"
-              srcset="./assets/images/hero/1x/8.jpg 1x, ./assets/images/hero/2x/8@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/8.jpg 1x, ./assets/images/hero/2x/8@2x.jpg 2x"
               alt="man works on laptop"
             />
           </a>
@@ -229,7 +229,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/9.jpg"
-              srcset="./assets/images/hero/1x/9.jpg 1x, ./assets/images/hero/2x/9@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/9.jpg 1x, ./assets/images/hero/2x/9@2x-1.jpg 2x"
               alt="two women are locking on laptop"
             />
           </a>
@@ -239,7 +239,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/10.jpg"
-              srcset="./assets/images/hero/1x/10.jpg 1x, ./assets/images/hero/2x/10@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/10.jpg 1x, ./assets/images/hero/2x/10@2x.jpg 2x"
               alt="people on the meeting"
             />
           </a>
@@ -249,7 +249,7 @@ const Gallery = () => {
             <img 
               className="image-box__image" 
               src="./assets/images/hero/1x/11.jpg"
-              srcset="./assets/images/hero/1x/11.jpg 1x, ./assets/images/hero/2x/11@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/11.jpg 1x, ./assets/images/hero/2x/11@2x-1.jpg 2x"
               alt="three men discuss task"
             />
           </a>
@@ -259,7 +259,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/12.jpg"
-              srcset="./assets/images/hero/1x/12.jpg 1x, ./assets/images/hero/2x/12@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/12.jpg 1x, ./assets/images/hero/2x/12@2x.jpg 2x"
               alt="man writes in the notebook"
             />
           </a>
@@ -269,7 +269,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/11.jpg"
-              srcset="./assets/images/hero/1x/11.jpg 1x, ./assets/images/hero/2x/11@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/11.jpg 1x, ./assets/images/hero/2x/11@2x-1.jpg 2x"
               alt="three men discuss task"
             />
           </a>
@@ -279,7 +279,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/12.jpg"
-              srcset="./assets/images/hero/1x/12.jpg 1x, ./assets/images/hero/2x/12@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/12.jpg 1x, ./assets/images/hero/2x/12@2x.jpg 2x"
               alt="man writes in the notebook"
             />
           </a>
@@ -291,7 +291,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/13.jpg"
-              srcset="./assets/images/hero/1x/13.jpg 1x, ./assets/images/hero/2x/13@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/13.jpg 1x, ./assets/images/hero/2x/13@2x-1.jpg 2x"
               alt="smiling woman"
             />
           </a>
@@ -301,7 +301,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/14.jpg"
-              srcset="./assets/images/hero/1x/14.jpg 1x, ./assets/images/hero/2x/14@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/14.jpg 1x, ./assets/images/hero/2x/14@2x.jpg 2x"
               alt="people in the workspace"
             />
           </a>
@@ -311,7 +311,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/15.jpg"
-              srcset="./assets/images/hero/1x/15.jpg 1x, ./assets/images/hero/2x/15@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/15.jpg 1x, ./assets/images/hero/2x/15@2x.jpg 2x"
               alt="people on the meeting"
             />
           </a>
@@ -321,7 +321,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/16.jpg"
-              srcset="./assets/images/hero/1x/16.jpg 1x, ./assets/images/hero/2x/16@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/16.jpg 1x, ./assets/images/hero/2x/16@2x.jpg 2x"
               alt="man locking in the tablet"
             />
           </a>
@@ -331,7 +331,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/17.jpg"
-              srcset="./assets/images/hero/1x/17.jpg 1x, ./assets/images/hero/2x/17@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/17.jpg 1x, ./assets/images/hero/2x/17@2x.jpg 2x"
               alt="woman reads journal"
             />
           </a>
@@ -341,7 +341,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/18.jpg"
-              srcset="./assets/images/hero/1x/18.jpg 1x, ./assets/images/hero/2x/18@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/18.jpg 1x, ./assets/images/hero/2x/18@2x.jpg 2x"
               alt="people in the workspace"
             />
           </a>
@@ -351,7 +351,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/13.jpg"
-              srcset="./assets/images/hero/1x/13.jpg 1x, ./assets/images/hero/2x/13@2x-1.jpg 2x"
+              srcSet="./assets/images/hero/1x/13.jpg 1x, ./assets/images/hero/2x/13@2x-1.jpg 2x"
               alt="smiling woman"
             />
           </a>
@@ -361,7 +361,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/14.jpg"
-              srcset="./assets/images/hero/1x/14.jpg 1x, ./assets/images/hero/2x/14@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/14.jpg 1x, ./assets/images/hero/2x/14@2x.jpg 2x"
               alt="people in the workspace"
             />
           </a>
@@ -371,7 +371,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/15.jpg"
-              srcset="./assets/images/hero/1x/15.jpg 1x, ./assets/images/hero/2x/15@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/15.jpg 1x, ./assets/images/hero/2x/15@2x.jpg 2x"
               alt="people on the meeting"
             />
           </a>
@@ -381,7 +381,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/16.jpg"
-              srcset="./assets/images/hero/1x/16.jpg 1x, ./assets/images/hero/2x/16@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/16.jpg 1x, ./assets/images/hero/2x/16@2x.jpg 2x"
               alt="man locking in the tablet"
             />
           </a>
@@ -391,7 +391,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/17.jpg"
-              srcset="./assets/images/hero/1x/17.jpg 1x, ./assets/images/hero/2x/17@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/17.jpg 1x, ./assets/images/hero/2x/17@2x.jpg 2x"
               alt="woman reads journal"
             />
           </a>
@@ -401,7 +401,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/18.jpg"
-              srcset="./assets/images/hero/1x/18.jpg 1x, ./assets/images/hero/2x/18@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/18.jpg 1x, ./assets/images/hero/2x/18@2x.jpg 2x"
               alt="people in the workspace"
             />
           </a>
@@ -411,7 +411,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/17.jpg"
-              srcset="./assets/images/hero/1x/17.jpg 1x, ./assets/images/hero/2x/17@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/17.jpg 1x, ./assets/images/hero/2x/17@2x.jpg 2x"
               alt="woman reads journal"
             />
           </a>
@@ -421,7 +421,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/18.jpg"
-              srcset="./assets/images/hero/1x/18.jpg 1x, ./assets/images/hero/2x/18@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/18.jpg 1x, ./assets/images/hero/2x/18@2x.jpg 2x"
               alt="people in the workspace"
             />
           </a>

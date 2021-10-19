@@ -24,10 +24,14 @@ const BenefitsList = () => {
       breakpoints: {
         768: {
           spaceBetween: 0,
+          pagination: {
+            el: null,
+          }
         }
       }
     });
   }, []);
+
 
   return (
     <>

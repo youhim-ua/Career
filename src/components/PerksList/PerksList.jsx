@@ -26,6 +26,9 @@ const PerksList = () => {
         1440: {
           spaceBetween: 0,
           slidesPerView: 6,
+          pagination: {
+            el: null,
+          }
         }
       }
     });

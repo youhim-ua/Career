@@ -23,13 +23,12 @@ const ProcessList = () => {
       slidesPerView: "auto",
       spaceBetween: 10,
       breakpoints: {
-        1261: {
-          spaceBetween: 10,
-          slidesPerView: 3
-        },
         1440: {
           spaceBetween: 0,
-          slidesPerView: 2
+          slidesPerView: 2,
+          pagination: {
+            el: null,
+          }
         }
       }
     });
@@ -116,7 +115,7 @@ const ProcessList = () => {
           
         </ul>
 
-        <div className="controller-box"></div>
+        {windowWidth < 1261 && <div className="controller-box"></div>}
       </div>
     </>  
   );

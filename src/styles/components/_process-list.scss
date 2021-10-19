@@ -7,13 +7,6 @@
   padding: 0;
   list-style: none;
 
-  @media screen and (min-width: 1261px) and (max-width: 1439px) {
-    display: block;
-    width: 1092px !important;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   &__item {
     position: relative;
     max-width: 280px;
