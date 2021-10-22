@@ -46,7 +46,11 @@ const PerksList = () => {
                 <use href={ sprite + "#Young motivated team" }></use>
               </svg>
             </div>          
-            <h3 className="perks-list__title">Young motivated <br/>team</h3>
+            {windowWidth < 1440 ?
+            <h3 className="perks-list__title">Young motivated team</h3>
+            :
+            <h3 className="perks-list__title">Young motivated <br/>team</h3> 
+            }
             <p className="perks-list__text"> 
               Over the last year, our team has grown from 2 to 40 employees,
               and we keep searching for the smartest minds to join us.

@@ -311,7 +311,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/15.jpg"
-              srcSet="./assets/images/hero/1x/15.jpg 1x, ./assets/images/hero/2x/15@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/15.jpg 1x, ./assets/images/hero/2x/15@2x-1.jpg 2x"
               alt="people on the meeting"
             />
           </a>
@@ -371,7 +371,7 @@ const Gallery = () => {
             <img 
               className="image-box__image"
               src="./assets/images/hero/1x/15.jpg"
-              srcSet="./assets/images/hero/1x/15.jpg 1x, ./assets/images/hero/2x/15@2x.jpg 2x"
+              srcSet="./assets/images/hero/1x/15.jpg 1x, ./assets/images/hero/2x/15@2x-1.jpg 2x"
               alt="people on the meeting"
             />
           </a>

@@ -30,6 +30,7 @@
     width: 100%;
     height: 67px;
     background: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%);
+    pointer-events: none;
   }
 
   &__list {
