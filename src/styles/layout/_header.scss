@@ -5,6 +5,12 @@
   width: 100%;
   background-color: inherit;
   z-index: 500;
+  transition: all 300ms linear;
+
+  &--hide {
+    transform: translateY(-100%);
+    transition: all 300ms linear;
+  }
 
   & > div {
     display: flex;
